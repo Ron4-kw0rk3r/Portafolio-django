@@ -1,0 +1,43 @@
+/* Generated code for main */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Updated to white background */
+    color: #000000; /* Updated to black text color */
+}
+p {
+    color: #333;
+    margin-top: 100px;
+}
+.navbar {
+    background-color: #00ffee;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+.carousel {
+    margin-top: 50px;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+/* Additional styles for particles at the bottom */
+.particles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #000000; /* Black background for particles */
+}
+/* End Generated code for main */
+
+

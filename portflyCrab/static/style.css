@@ -1,0 +1,33 @@
+/* static files */
+@import url('bootstrap-5.3.3-dist/css/bootstrap.min.css');
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    background-color: #82baf2;
+}
+p {
+    color: #333;
+    margin-top: 100px;
+}
+.navbar {
+    background-color: #00ffee;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+    &:hover {
+        color: #fff;
+    }
+}
+.carousel {
+    margin-top: 50px;
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}

@@ -1,0 +1,37 @@
+config Postgresql
+
+
+
+# init install postgresql on Arch System´s
+
+yay -S postgresql 
+ or 
+sudo pacman -Syy && sudo pacman -S postgresql 
+
+
+# docs administration config postgresql on linux  
+
+sudo -iu  postgres
+
+
+## login on postgres
+
+pwd --> directory root 
+
+
+initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data/'
+
+---------------------------
+
+
+sudo systemctl status postgresql 
+
+sudo systemctl start postgresql 
+sudo systemctl enable postgresql 
+
+-----------------------------
+## create new user 
+
+
+sudo -u postgres psql 
+
