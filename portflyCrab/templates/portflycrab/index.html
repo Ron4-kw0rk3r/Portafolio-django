@@ -1,56 +1,224 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmer Portfolio</title>
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="static/defstyle.css">
+    <link rel="stylesheet" href="static/style.css">
 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>PortflyCrab</title>
-		<meta name="description" content="Portafolio Web DevOss">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="static/style.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css">
-	</head>
-	
-	
-	
-	<body>
-		<nav>
-			<ul>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Contact</a></li>
-				<li class="change-pos"><a href="#">Mod Desktop</a></li>
-				<li class="change-pos"><a href="#">Mod Tableta</a></li>
-				<li class="change-pos"><a href="#">Mod Movil</a></li>
-			</ul>
-		</nav>
+    <link rel="stylesheet" href="static/dark-theme.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
-		<p> Hello Django este es mi Sistema de portafolio portafolio</p>
+    
+</head>
+<body>
+        
+ 
+    <section class="second-section">   
+        <div>
+                <ul class="spaced-list">
+                    <li><img src="static/images/profile.jpeg" alt="imagenperf" style="border-radius: 50%; width: 230px; height: 230px; border: 2px solid blue; display: block; margin: 0 auto;"></li>
+                    <h2></h2>
+                    <li><p>¡Bienvenido a mi portafolio! Mi nombre es Bryan Ronaldo y soy un apasionado desarrollador en busca de nuevos desafíos.</p></li>
+                    <li><a href="#Perfil" class="twildcss tailwildcss">Perfil</a><span class="dot-gray"></span></li>
+                    <li><a href="#Habilidades" class="twildcss tailwildcss">Mis Habilidades</a><span class="dot-gray"></span></li>
+                    <li><a href="#Proyectos" class="twildcss tailwildcss">Proyectos</a><span class="dot-gray"></span></li>
+                    <li><a href="#Otros" class="twildcss tailwildcss">Otros</a><span class="dot-gray"></span></li>
+                    <li><a href="#Contactame" class="twildcss tailwildcss">Sobre mi</a><span class="dot-gray"></span></li>
+                    <li><a href="/templates/pdfdowncv.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded">Descargar CV</a></li>
+                </ul>
+        </div>
+        
+        
+        <div class="slideof-get">
+                <div class="eternal">
+                    <section id="changetheme">
+                        <p>Cambiar tema oscuro</p>
+                        <div class="dark-theme-switch">
+                            <label class="switch">
+                                <input type="checkbox" id="themeSwitch">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </section>
+                </div>
+        </div>
+        
+    </section>
+ 
+    <div class="content-dev-sub">
+        <div class="content-twu">
+            <section id="profile">
+                <h1 class="text-4xl font-bold" style="color: black;">BRYAN <span style="color: orange;">RONALDO</span></h1>
+                <h2 class="text-lg font-bold">Num: (+591 64173761) | r0nvbaldor@protonmail.com</h2>
+                <p>Sobre mi esto es un portafolio de programador </p>
+            
+                <h3>Lorem Ipsum</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            </section>
+        </div>
+    </div>
+    <div class="content-sub">
+        <div class="content-tre">
+            <section id="skills">
+                <h2>Mis Habilidades:</h2>
+                <div class="skill-icons">
+                    <i class="devicon-ruby-plain colored text-7x1"></i>
+                    <i class="devicon-python-plain colored text-7x1" ></i>
+                    <i class="devicon-haskell-plain colored text-7x1"></i>
+                    <i class="devicon-go-plain colored text-7x1 "></i>
+                    <i class="devicon-c-plain colored text-7x1"></i>
+                    <i class="devicon-bash-plain colored text-7x1"></i>
+                    <i class="devicon-java-plain colored text-7x1"></i>
+                    <i class="devicon-php-plain colored text-7x1"></i>
+                    <i class="devicon-javascript-plain colored text-7x1"></i>
+                </div>
+            </section>
+        </div>    
+
+        <div class="content-for">
+            
+            <div class="framekwoks-icons">
+            
+                <section id="frameworks">    
+                    <h2> Frameworks:</h2>  
+                    <i class="devicon-django-plain colored text-7xl"></i>
+                    <i class="devicon-flask-original-wordmark colored text-7xl"></i>
+                    <i class="devicon-react-original-wordmark colored text-7xl"></i>
+                    <i class="devicon-yarn-original-wordmark colored text-7xl"></i>
+                    <i class="devicon-hardhat-original-wordmark colored text-7xl"></i>
+                </section>
+            </div>
+
+            
+        </div>
+
+        <div class="content-five">
+            
+            <div id="chain" class="mydevs">
+                <section id="gest-db">
+                    <h1> Gestores de Base de Datos:</h1>  
+                    <i> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="75px" /> </i>
+
+                    <i> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg" width="75px" /></i>
+                
+                    <i> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" width="75px"/></i>
+                </section>
+            </div>
+                
+
+        </div>
+
+        <div class="content-six">
+            
+            <div class="dev-web3">
+                <section id="blockchain">
+                    <h1> Web3 - blockchain </h1>  
+                    <i><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/solidity/solidity-original.svg" width="75px"/></i>
+                </section>
+            </div>
+                
+            
+        </div>
+        <div class="content-seven">
+           
+            <div class="appsdevelopment">
+                <section id="dev-asyncs">
+                    <h1> Aplicaciones de Desarrollo</h1>
+
+                    
+                    <i><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"  width="75px"/> </i>
+                    
+                    <i><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"  width="75px"/> </i>
+                    
+                    <i><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg"  width="75px"/> </i>
+
+                    <i><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/podman/podman-original.svg"  width="75px"/> </i>
+
+                    <i><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stackoverflow/stackoverflow-original-wordmark.svg"  width="75px"/> </i>
+                
+                    
+                </section>
+            </div>
+                
+            
+        </div>
+
+        <div class="content-eight">
+            
+            <div class="servers">
+
+                <h1> Servidores </h1>
+                <section id="servers">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original-wordmark.svg"  width="75px"/>
+                
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original-wordmark.svg"  width="75px"/>
+                
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg"  width="75px"/>
+            
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="75px" />
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="75px" />
+                </section>
+                    
+            </div>
+            
+        </div>
+        <div class="content-nine">
+           
+            <h2>My Projects</h2>
+            <p>Display your programming projects with descriptions and links.</p>
+    
+        </div>
+        <div class="content-ten">
+            
+            <h2>Others</h2>
+            <p>Include any additional information or sections you want to showcase.</p>
+            
+        </div>
+
+        <div class="content-eleven">
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Provide contact information and a contact form if desired.</p>
+            </section>
+        </div>
+    </div>
+    <div class="end-sections">
+        <footer>
+            <p>&copy; 2024 Programmer Portfolio</p>
+        </footer>
+    </div>
+
+    <canvas id="waveParticles"></canvas>
+
+    <!-- script src="waves.js"></script -->
 
 
-		
-		<div class="carousel">
-			<div class="carousel-item" style="background-image: url('slide1.jpg');"></div>
-			<div class="carousel-item" style="background-image: url('slide2.jpg');"></div>
-			<div class="carousel-item" style="background-image: url('slide3.jpg');"></div>
-		</div>
-
-
-		
-		<!--[if lt IE 7]>
-			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-		
-		<script src="" async defer></script>
-	</body>
+    <script>
+        const themeSwitch = document.getElementById('themeSwitch');
+        
+        // Función para cambiar el tema
+        function toggleTheme() {
+            if (themeSwitch.checked) {
+                document.documentElement.setAttribute('data-theme', 'dark'); // Cambia a tema oscuro
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light'); // Cambia a tema claro
+            }
+        }
+        
+        // Ejecuta toggleTheme al cargar la página para reflejar el estado del interruptor
+        toggleTheme();
+        
+        // Agrega un listener para detectar cambios en el interruptor
+        themeSwitch.addEventListener('change', toggleTheme);
+    </script>
+</body>
 </html>
-
-
-
-
-
-
