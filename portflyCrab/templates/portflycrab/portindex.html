@@ -39,7 +39,7 @@
 
                 <a class="navbar-brand js-scroll-trigger" href="#page-top">
                     <span class="d-block d-md-none">Bryan Ronaldo</span>
-                    <span class="d-none d-md-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" style="border-radius: 50%; width: 140px; height: 140px;" src="/static/assets/img/profile.jpg" alt="..." /></span>
+                    <span class="d-none d-md-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" style="border-radius: 50%; width: 140px; height: 140px;" src="/static/images/useralter.jpg" alt="..." /></span>
                 </a>
                 <h1 style="font-size: 2.2rem; color: white; padding: 18px;">¡Bienvenido</h1>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,7 +68,7 @@
                         </h1>
                         <div class="subheading mb-5">
                             826 Los Pinos · Calle 21, BO 0000 · (591) 64173761 ·
-                            <a href="https://gmail:cc0d3tesl4001@gmail.com">sams3pian@gmail.com</a>
+                            <a href="gmail:cc0d3tesl4001@gmail.com" style="color: orange;">sams3pian@gmail.com</a>
                         </div>
                         <p class="lead mb-5">Hola, como ingeniero junior y programador, mi trayectoria se ha caracterizado por una constante búsqueda de crecimiento y aprendizaje. He tenido la oportunidad de trabajar en entornos que aplican marcos de trabajo ágiles, lo que me ha permitido adaptarme rápidamente a los cambios y colaborar eficazmente con equipos multidisciplinarios. Mi pasión por la tecnología y el desarrollo de software me motiva a seguir perfeccionando mis habilidades técnicas y a contribuir con soluciones factible a los proyectos en los que participo.</p>
                         <div class="social-icons">
@@ -178,7 +178,7 @@
                 </section>
                 
                 <!-- Skills-->
-                <section class="resume-section" id="skills" style="display: flex; justify-content: space-around;">
+                <section class="resume-section" id="skills" style="display: flex; justify-content: space-around; margin-bottom: -50px;">
                     <div class="resume-section-content" style="margin: -50px auto 0; width: 100%;">
                         <h2 class="mb-5">Habilidades</h2>
                         <div class="subheading mb-3" style="padding: 10px; border-radius: 20px; background-color: #f1f1f1; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); width: 100%; max-width: 100%; box-sizing: border-box;">
@@ -233,9 +233,32 @@
                         <p>Como desarrollador, realizo algunas pruebas de contenido y estas serán en métricas como estas estadísticas.</p>
                     </div>
                 </section>
-                <div style="width: 500px;">
-                        <canvas id="bubbleChart" width="400" height="400"></canvas>
-                </div><br/>
+                
+                 <div id="datos" style=" font-size: smaller; justify-content: center;">
+                    <div data-intensidad="5" data-otra-variable="20"></div>
+                    <div data-intensidad="35" data-otra-variable="25"></div>
+                    <div data-intensidad="37" data-otra-variable="25"></div>
+                    <div data-intensidad="70" data-otra-variable="30"></div>
+                    <div data-intensidad="18" data-otra-variable="35"></div>
+                    <div data-intensidad="42" data-otra-variable="40"></div>
+                    <div data-intensidad="35" data-otra-variable="45"></div>
+                    <div data-intensidad="40" data-otra-variable="50"></div>
+                    <div data-intensidad="11" data-otra-variable="55"></div>
+                    <div data-intensidad="25" data-otra-variable="60"></div>
+                    <div data-intensidad="50" data-otra-variable="65"></div>
+                    <div data-intensidad="60" data-otra-variable="70"></div>
+                    <div data-intensidad="65" data-otra-variable="68"></div>
+                    <div data-intensidad="70" data-otra-variable="31"></div>
+                    <div data-intensidad="45" data-otra-variable="61"></div>
+                    <div data-intensidad="16" data-otra-variable="41"></div>
+                    <div data-intensidad="32" data-otra-variable="25"></div>
+                    <!-- Agregar/ más datos según sea necesario -->
+                </div>
+
+    <!-- Canvas para la gráfica -->
+                <div style="width: 80%; @media (max-width: 768px) { width: 50%; }">
+                    <canvas id="volumetricChart" width="300" height="300"></canvas>
+                </div>
                 
                 <section class="resume-section" id="awards">
                     <div class="resume-section-content">
@@ -278,30 +301,36 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script>
-            // Tu código JavaScript aquí para generar la gráfica de burbujas
-            (async function() {
-                const data = await getDimensions();
+            // Leer los datos desde el HTML
+            var datos = document.querySelectorAll('#datos div');
+            var intensidades = [];
+            var otrasVariables = [];
+            datos.forEach(function(dato) {
+                intensidades.push(parseInt(dato.dataset.intensidad));
+                otrasVariables.push(parseInt(dato.dataset.otraVariable));
+            });
 
-                new Chart(
-                    document.getElementById('dimensions'),
-                    {
-                        type: 'bubble',
-                        data: {
-                            labels: data.map(x => x.year),
-                            datasets: [
-                                {
-                                    label: 'Dimensions',
-                                    data: data.map(row => ({
-                                        x: row.width,
-                                        y: row.height,
-                                        r: row.count
-                                    }))
-                                }
-                            ]
-                        }
-                    }
-                );
-            })();
+            // Crear la gráfica volumétrica
+            var ctx = document.getElementById('volumetricChart').getContext('2d');
+            var volumetricChart = new Chart(ctx, {
+                type: 'bubble',
+                data: {
+                    datasets: [{
+                        label: 'Intensidad y Actividad',
+                        data: intensidades.map((intensidad, index) => ({
+                            x: intensidad,
+                            y: otrasVariables[index],
+                            r: 15, // Tamaño de las burbujas
+                            backgroundColor: 'rgba(255, 206, 86, 0.6)', // Color amarillo
+                            borderColor: 'rgba(255, 206, 86, 1)',
+                            borderWidth: 1
+                        })),
+                    }]
+                },
+                options: {
+                    maintainAspectRatio: true, // Evita que el gráfico se ajuste al contenedor
+                }
+            });
         </script>
         
 
