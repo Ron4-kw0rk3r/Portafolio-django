@@ -3,16 +3,13 @@
 }
   
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
 }
 
-/* Estilos para la sección lateral */
-.second-section {
+/* Estilos para la sección lateral 
     background-color: #f1f1f1;
     width: 370px;
     position: fixed;
@@ -46,8 +43,134 @@ body {
     color: black;
     text-decoration: none;
     scrollbar-width: thin;
+} */
+
+
+/* Estilos para la lista espaciada */
+.spaced-list {
+    list-style: none;
 }
 
+.spaced-list li {
+    margin-bottom: 20px; /* Espacio entre cada elemento de la lista */
+    border-bottom: 1px solid #ccc; /* Línea separadora entre elementos */
+    padding-bottom: 20px; /* Espacio debajo de cada elemento */
+}
+
+/* Estilos para la imagen de perfil */
+.spaced-list img {
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    border: 2px solid blue;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para el enlace tailwindcss */
+.twildcss {
+    text-decoration: none;
+    color: #333; /* Color de texto de los enlaces */
+}
+
+/* Estilos para el punto gris */
+.dot-gray {
+    width: 8px;
+    height: 8px;
+    background-color: #ccc; /* Color del punto gris */
+    border-radius: 50%; /* Hacer el punto redondeado */
+    display: inline-block;
+    margin-left: 5px; /* Espacio entre el enlace y el punto */
+}
+
+/* Estilos para el botón de descarga de CV */
+.bg-blue-500 {
+    background-color: #4299e1; /* Color de fondo del botón */
+}
+
+.bg-blue-500:hover {
+    background-color: #3182ce; /* Cambio de color al pasar el cursor */
+}
+
+.text-white {
+    color: #fff; /* Color de texto del botón */
+}
+
+.font-bold {
+    font-weight: bold; /* Texto en negrita */
+}
+
+.py-3 {
+    padding-top: 0.75rem; /* Espacio interno vertical */
+    padding-bottom: 0.75rem; /* Espacio interno vertical */
+}
+
+.px-4 {
+    padding-left: 1rem; /* Espacio interno horizontal */
+    padding-right: 1rem; /* Espacio interno horizontal */
+}
+
+.rounded {
+    border-radius: 0.25rem; /* Bordes redondeados */
+}
+
+/* Estilos para el botón de cambio de tema oscuro */
+.dark-theme-switch p {
+    margin-bottom: 10px; /* Espacio debajo del texto */
+}
+
+.dark-theme-switch label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.dark-theme-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Color del interruptor */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white; /* Color del punto del interruptor */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3; /* Cambio de color al estar activado */
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3; /* Sombra al enfocar */
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px); /* Posición del punto cuando está activado */
+    -ms-transform: translateX(26px); /* Posición del punto cuando está activado */
+    transform: translateX(26px); /* Posición del punto cuando está activado */
+}
 /* Estilos para las secciones de contenido */
 
 
