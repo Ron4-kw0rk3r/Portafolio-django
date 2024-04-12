@@ -7,7 +7,7 @@
 -->
 
 <h3 align="center">
-        <samp>&gt; Hola, Bienvenido!, Me llamo Bryan 
+        <samp>&gt; Hola, Bienvenido!, Me llamo Bryan visitame en 
                 <b><a target="_blank" href="https://github.com/Ron4-kw0rk3r/Portafolio-django">PortflyCrab</a></b>
         </samp>
 </h3>
@@ -25,11 +25,11 @@
 ![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-
- # About me | Sobre mi...
+ <!-- About me -->
+ # Sobre mi
  
 <p>
- <img align="right" width="350" src="https://ibb.co/yPZFQtP" alt="Coder" />
+ <img align="right" width="350" src="https://i.ibb.co/54ShRm4/profile.jpg" alt="Coder" />
   
  ✌️ &emsp; Como programador me centro en temas de investigacion aplicadas a la explotacion de datos <br/><br/>
  ❤️ &emsp; Me gusta leer libros sobre contenido sobrelevante <br/><br/>
