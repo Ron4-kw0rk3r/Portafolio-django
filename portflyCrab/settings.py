@@ -117,7 +117,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, 'portflyCrab/static'),
 ]
 
 # Default primary key field type
@@ -125,8 +125,8 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-## vercel optional advanced 
+# vercel optional advanced 
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+# ALLOWED_HOSTS = ['127.0.0.1', '.portflyCrab.app']
 
-WSGI_APPLICATION = 'portflyCrab.wsgi.app'
+# WSGI_APPLICATION = 'portflyCrab.wsgi.app'

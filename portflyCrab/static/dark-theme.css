@@ -1,0 +1,119 @@
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye el espacio entre las columnas */
+     /* Ajusta el margen izquierdo para separar del menú */
+    margin-top: 10px;
+    background-color: #f1f1f1; /* Color de fondo blanco */
+    border-radius: 15px; /* Borde redondeado */
+    /* Espaciado interno */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    margin-left: 415px;
+    padding: 10px;
+
+}
+
+.content > section {
+    width: 48%; /* Establece el ancho de cada columna */
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px; /* Añade un margen inferior entre las secciones */
+}
+
+
+.content-twu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 415px;
+}
+
+.content-tre {
+    background-color: #f1f1f1;
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 415px;
+}
+
+.content-for {
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-five {
+    background-color: #f1f1f1;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-six {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-seven {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-eight {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-nine {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-ten {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+.content-eleven {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 415px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .content > section {
+        width: 100%; /* En dispositivos pequeños, mostrar una columna completa */
+        margin-bottom: 20px; /* Añade un margen inferior entre las secciones */
+    }
+}
