@@ -1,24 +1,62 @@
+
+<!--
+<h2 align="center">
+  Bienvenido  a Mi repo PortflyCrab!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h2>
+-->
+
+<h3 align="center">
+        <samp>&gt; Hola, Bienvenido!, Me llamo Bryan visitame en 
+                <b><a target="_blank" href="https://github.com/Ron4-kw0rk3r/Portafolio-django">PortflyCrab</a></b>
+        </samp>
+</h3>
+
+
+## Sobre el codigo..... 
+
+![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
+![Nodejs](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-092749?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&labelColor=000000)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+ <!-- About me -->
+ # Sobre mi
+ 
+<p>
+ <img align="right" width="350" src="https://i.ibb.co/54ShRm4/profile.jpg" alt="Coder" />
+  
+ ✌️ &emsp; Como programador me centro en temas de investigacion aplicadas a la explotacion de datos <br/><br/>
+ ❤️ &emsp; Me gusta leer libros sobre contenido sobrelevante <br/><br/>
+ 📧 &emsp; Contactame: r0nvbaldor@protonmail.com<br/><br/>
+ 💬 &emsp; Visitame en: [here](https://github.com/Ron4-kw0rk3r)
+
+</p>
+<br/>
+<br/>
+<br/>
+
+
 ### CrabPortFly
-El desarrollo de un sistema básico para portafolios utilizando el framework Django ofrece una solución robusta y eficiente para la presentación de proyectos y habilidades de profesionales y creativos. Django, siendo un framework de alto nivel para el desarrollo web rápido, promueve la reutilización de componentes y principios de diseño limpio, lo que facilita la creación de aplicaciones web complejas de manera más sencilla y estructurada.
+Para comenzar, este pagina escrito en python-Django  presenta mi Portafolio, destacando mis, habilidades y experiencias. La arquitectura de Django, basada en el patrón de diseño Modelo-Vista-Controlador (MVC), permite separar la lógica de la aplicación de la interfaz de usuario, facilitando así el mantenimiento y la escalabilidad del sistema.
+de negocio y las interacciones entre el modelo y las vistas.
 
-Para comenzar, el sistema de portafolios se centrará en permitir a los usuarios crear y gestionar sus propios proyectos, destacando sus habilidades y experiencias. La arquitectura de Django, basada en el patrón de diseño Modelo-Vista-Controlador (MVC), permite separar la lógica de la aplicación de la interfaz de usuario, facilitando así el mantenimiento y la escalabilidad del sistema.
-
-El modelo se encargará de definir la estructura de datos del portafolio, incluyendo entidades como Usuarios, Proyectos, Habilidades, entre otros. Las vistas interactuarán con estos modelos para presentar la información de manera coherente y atractiva al usuario final, mientras que el controlador gestionará la lógica de negocio y las interacciones entre el modelo y las vistas.
-
-Además, Django ofrece un sistema de administración generado automáticamente que puede ser utilizado para gestionar el contenido del portafolio de manera eficiente, permitiendo a los usuarios agregar, editar o eliminar proyectos y habilidades sin necesidad de escribir código adicional.
-
-Para enriquecer la experiencia del usuario, se pueden integrar tecnologías como AJAX y jQuery para crear interfaces dinámicas que respondan en tiempo real a las interacciones del usuario, mejorando la interactividad y la usabilidad del sistema de portafolios.
-
+Además, Django ofrece un sistema de administración generado automáticamente que puede ser utilizado para gestionar el contenido del portafolio de manera eficiente.
 En resumen, el desarrollo de un sistema de portafolios con Django no solo proporciona una base sólida y escalable para la presentación de proyectos y habilidades, sino que también ofrece una amplia gama de herramientas y funcionalidades que facilitan la gestión y mejora continua del portafolio.
 
-### Puntos Clave del Sistema de Portafolios con Django y PostgreSQL:
+
+
+### Puntos Clave del Portafolio con python-Django:
 
 1. **Framework Django**: Utilización de Django para un desarrollo web rápido y limpio, aprovechando su arquitectura MVC para una separación clara entre lógica, presentación y datos.
-2. **Modelo de Datos**: Definición de modelos para Usuarios, Proyectos, Habilidades, etc., que serán gestionados a través del ORM de Django, facilitando las operaciones con la base de datos.
-3. **Gestor de Base de Datos PostgreSQL**: Integración con PostgreSQL, un sistema de gestión de bases de datos relacional potente y de código abierto, para un almacenamiento seguro y eficiente de los datos del portafolio.
-4. **Sistema de Administración de Django**: Uso del sistema de administración automático de Django para una gestión eficaz del contenido del portafolio, permitiendo operaciones CRUD sin desarrollo adicional.
-5. **Interfaz de Usuario Dinámica**: Implementación de AJAX y jQuery para mejorar la interactividad y la experiencia del usuario final, con interfaces que responden en tiempo real.
-6. **Escalabilidad y Mantenimiento**: Diseño del sistema pensando en la escalabilidad y facilidad de mantenimiento, gracias a la estructura modular y las buenas prácticas promovidas por Django.
+2. **Sistema de Administración de Django**: Uso del sistema de administración automático de Django para una gestión eficaz del contenido del portafolio, permitiendo operaciones CRUD sin desarrollo adicional.
+3. **Interfaz de Usuario Dinámica**: Implementación de Tailwindcss , Nodejs , Chart.js y otras herramientas para mejorar la interactividad y la experiencia del usuario final, con interfaces que responden en tiempo real.
+4. **Escalabilidad y Mantenimiento**: Diseño del sistema pensando en la escalabilidad y facilidad de mantenimiento, gracias a la estructura modular y las buenas prácticas promovidas por Django.
 
-Este enfoque garantiza no solo una presentación efectiva de proyectos y habilidades, sino también una plataforma adaptable y fácil de gestionar para los usuarios.
+
 
