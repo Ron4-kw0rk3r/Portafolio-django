@@ -13,7 +13,7 @@
 </h3>
 
 <a href="https://ibb.co/cXtZRX0"><img src="https://i.ibb.co/YT81JTm/portafolio.png" alt="portafolio" border="1"></a>
-## Sobre el codigo..... 
+## Mi experiencia
 
 ![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
 ![Nodejs](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)
@@ -43,7 +43,7 @@
 
 
 ### CrabPortFly
-Para comenzar, este pagina escrito en python-Django  presenta mi Portafolio, destacando mis, habilidades y experiencias. La arquitectura de Django, basada en el patrón de diseño Modelo-Vista-Controlador (MVC), permite separar la lógica de la aplicación de la interfaz de usuario, facilitando así el mantenimiento y la escalabilidad del sistema.
+Para comenzar, esta pagina, fue escrita en python-Django presenta mi Portafolio, destacando mis, habilidades y experiencias. La arquitectura de Django, basada en el patrón de diseño Modelo-Vista-Controlador (MVC), permite separar la lógica de la aplicación de la interfaz de usuario, facilitando así el mantenimiento y la escalabilidad del sistema.
 de negocio y las interacciones entre el modelo y las vistas.
 
 Además, Django ofrece un sistema de administración generado automáticamente que puede ser utilizado para gestionar el contenido del portafolio de manera eficiente.
